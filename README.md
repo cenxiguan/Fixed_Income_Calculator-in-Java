@@ -3,20 +3,20 @@ A fixed income calculator written in Java.
 
 This program is a calculator of the Market Value (price) and yield to maturity (YTM) of bonds.
  To start the program, please run below command on your terminal or Windows PowerShell:
- 	java -jar RongGuan.jar
+ 	java -jar FixedIncomeCalculator.jar
  or
     java RongGuan
 
  To perform unit-test of this program, you may run:
- 	java -jar RongGuan.jar -test
+ 	java -jar FixedIncomeCalculator.jar -test
 or
-    java RongGuan -test 
+    java FixedIncomeCalculator -test 
 
 *** ***  *** ***  *** ***  *** ***  *** ***  *** ***  *** ***  *** ***  *** ***  *** ***  *** 
 
 Below list some output for the program:
 
-$ java -jar RongGuan.jar
+$ java -jar FixedIncomeCalculator.jar
 
 	This program can calculcate the Market Value and the Yield to 
 	Maturity (YTM) for a bond.
@@ -50,7 +50,7 @@ The YTM of the bond is 0.1499974
 Enter your next choice now: ( 0 for exit; 1 for price; 2 for yield; 9 for testing) 0
 
 
-$ java RongGuan
+$ java FixedIncomeCalculator
 
 	This program can calculcate the Market Value and the Yield to 
 	Maturity (YTM) for a bond.
@@ -88,14 +88,14 @@ Enter your next choice now: ( 0 for exit; 1 for price; 2 for yield; 9 for testin
 
 Below is the result for timing the program:
 
-$ time java RongGuan -test
+$ time java FixedIncomeCalculator -test
 Case 3 calculated yield is 0.0800010. The provided yield is 0.0800001. 
 
 real	0m0.152s
 user	0m0.118s
 sys	0m0.032s
 
-$ time java -jar RongGuan.jar -test
+$ time java -jar FixedIncomeCalculator.jar -test
 Case 3 calculated yield is 0.0800010. The provided yield is 0.0800001. 
 
 real	0m0.158s
